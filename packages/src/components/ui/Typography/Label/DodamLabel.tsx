@@ -1,0 +1,23 @@
+import React from "react";
+import { FontScale, TypographyProps } from "../type";
+import { DodamTypography } from "@/styles";
+import styled, { RuleSet } from "styled-components";
+
+export const DodamLabel = ({
+  text,
+  fontScale = "Medium",
+  customStyle,
+  ...props
+}: TypographyProps) => {
+  return (
+    <LabelText fontScale={fontScale} customStyle={customStyle!} {...props}>
+      {text}
+    </LabelText>
+  );
+};
+
+const LabelText = styled.p<{ fontScale: FontScale; customStyle: RuleSet }>`
+  margin: 0;
+  ${({ fontScale }) => DodamTypography.Label[fontScale]}
+  ${({ customStyle }) => customStyle}
+`;
