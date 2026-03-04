@@ -1,0 +1,33 @@
+{
+  "name": "@mfa/core",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mfa/dds-web": "workspace:*",
+    "@tanstack/react-query": "^5.90.15",
+    "axios": "^1.13.2",
+    "js-cookie": "^3.0.5",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.11.0",
+    "react-toastify": "^11.0.5",
+    "styled-components": "^6.1.19",
+    "zustand": "^5.0.9"
+  },
+  "devDependencies": {
+    "@module-federation/vite": "^1.0.0",
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.4.2",
+    "vite": "^6.0.0",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
