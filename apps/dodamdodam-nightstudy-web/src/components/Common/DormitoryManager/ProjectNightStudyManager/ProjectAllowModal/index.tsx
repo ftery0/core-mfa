@@ -1,5 +1,5 @@
 import * as S from "./style";
-import { Close, DodamFilledButton } from "@mfa/dds-web";
+import { Close, DodamFilledButton } from "@mfa/dds";
 import { ProjectNightStudy } from "types/ManageNightStudy/manageProjectNightStudy.type";
 import convertDateTime from "utils/Time/ConvertDateTime";
 import ProjectChoiceRoom from "./ProjectChoiceRoom";

@@ -1,4 +1,4 @@
-import { Avatar, CheckmarkCircleFilled, CheckmarkCircleLine } from "@mfa/dds-web";
+import { Avatar, CheckmarkCircleFilled, CheckmarkCircleLine } from "@mfa/dds";
 import * as S from './style'
 import { Student } from "types/Member/member.type";
 

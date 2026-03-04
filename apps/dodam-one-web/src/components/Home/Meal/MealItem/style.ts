@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { EMealType } from "enum/Meal/meal.enum";
-import { DodamTypography } from "@mfa/dds-web";
+import { DodamTypography } from "@mfa/dds";
 
 export const MealItemContainer = styled.div`
   width: 100%;

@@ -2,7 +2,7 @@ import React from "react";
 import { WakeupSong } from "types/WakeupSong/wakeupSong.type";
 import dateTransform from "utils/Transform/dateTransform";
 import * as S from "./style";
-import { DodamTag } from "@mfa/dds-web";
+import { DodamTag } from "@mfa/dds";
 
 interface Props {
   wakeupSongData: WakeupSong;

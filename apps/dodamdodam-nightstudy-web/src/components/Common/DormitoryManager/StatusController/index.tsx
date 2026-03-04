@@ -1,4 +1,4 @@
-import { DodamFilledButton } from "@mfa/dds-web"
+import { DodamFilledButton } from "@mfa/dds"
 import useManageNightStudy from "hooks/NightStudy/ManageNightStudy/useManageNightStudy";
 import styled from "styled-components";
 

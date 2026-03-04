@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { DodamShape } from "@mfa/dds-web";
+import { DodamShape } from "@mfa/dds";
 
 export const TodayWakeupSongContainer = styled.div`
   height: min-content;

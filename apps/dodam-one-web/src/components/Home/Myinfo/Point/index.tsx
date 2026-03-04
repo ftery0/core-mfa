@@ -1,4 +1,4 @@
-import { DodamTag } from "@mfa/dds-web";
+import { DodamTag } from "@mfa/dds";
 import { usePointStore } from "store/Point/pointStore";
 import { useGetMyPointQuery } from "queries/Point/point.query";
 import { PointType } from "repositories/Point/point.param";

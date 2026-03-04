@@ -1,7 +1,7 @@
 import { ReactElement } from "react"
 import styled from "styled-components"
 import { DataTableBlock } from "../style"
-import { DodamShape, DodamTypography } from "@mfa/dds-web";
+import { DodamShape, DodamTypography } from "@mfa/dds";
 
 interface DataColumnProps {
   tableColumnData: {

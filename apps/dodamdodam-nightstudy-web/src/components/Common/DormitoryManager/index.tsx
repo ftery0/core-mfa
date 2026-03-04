@@ -1,4 +1,4 @@
-import { DodamSegmentedButton, DodamShape } from '@mfa/dds-web';
+import { DodamSegmentedButton, DodamShape } from '@mfa/dds';
 import { useChangePage } from 'hooks/NightStudy/useChangePage';
 import styled from 'styled-components';
 import PersonalNightStudyManager from './PersonalNightStudyManager';

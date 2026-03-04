@@ -3,7 +3,7 @@ import { Suspense } from "react";
 import ScheduleList from "./ScheduleList";
 import ScheduleListFallbackLoader from "components/Common/Skeleton/ScheduleList";
 import CardTitle from "components/Common/CardTitle";
-import { DodamErrorBoundary } from "@mfa/dds-web";
+import { DodamErrorBoundary } from "@mfa/dds";
 
 const Schedule = () => {
   return (

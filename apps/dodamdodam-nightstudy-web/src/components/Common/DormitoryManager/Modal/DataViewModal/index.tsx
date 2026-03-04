@@ -1,5 +1,5 @@
 import * as S from './style';
-import { Close } from "@mfa/dds-web";
+import { Close } from "@mfa/dds";
 import { NIGHT_STUDY_TIME } from 'constants/NightStudy/nightStudy.constant';
 import { ProjectNightStudy } from "types/ManageNightStudy/manageProjectNightStudy.type";
 import { NightStudy } from 'types/NightStudy/nightstudy.type';

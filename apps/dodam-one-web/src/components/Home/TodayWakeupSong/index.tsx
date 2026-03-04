@@ -3,7 +3,7 @@ import { Suspense } from "react";
 import TodayWakeupSongList from "./TodayWakeupSongList";
 import WakeupSongListFallback from "../../Common/Skeleton/WakeupSongList";
 import CardTitle from "../../Common/CardTitle";;
-import { DodamErrorBoundary } from "@mfa/dds-web";
+import { DodamErrorBoundary } from "@mfa/dds";
 
 const TodayWakeupSong = () => {
   return (

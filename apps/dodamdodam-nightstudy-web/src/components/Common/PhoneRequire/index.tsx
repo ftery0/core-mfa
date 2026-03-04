@@ -1,6 +1,6 @@
 import * as S from "./style";
 import { ChangeEvent } from "react";
-import { DodamCheckBox } from "@mfa/dds-web";
+import { DodamCheckBox } from "@mfa/dds";
 import { ApplyNightStudyParam } from "repositories/NightStudy/nightstudy.param";
 
 interface Props {

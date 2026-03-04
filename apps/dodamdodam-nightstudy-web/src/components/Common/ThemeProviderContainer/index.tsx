@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import useTheme from "hooks/Theme/useTheme";
-import { DodamThemeProvider, DodamGlobalStyles } from "@mfa/dds-web";
+import { DodamThemeProvider, DodamGlobalStyles } from "@mfa/dds";
 
 interface Props {
   children: ReactNode;

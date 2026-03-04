@@ -1,4 +1,4 @@
-import { DodamFilledButton, DodamModal, DodamTextField } from '@mfa/dds-web';
+import { DodamFilledButton, DodamModal, DodamTextField } from '@mfa/dds';
 import * as S from './style';
 import { ChangeEvent, useState } from 'react';
 import useManageNightStudy from 'hooks/NightStudy/ManageNightStudy/useManageNightStudy';

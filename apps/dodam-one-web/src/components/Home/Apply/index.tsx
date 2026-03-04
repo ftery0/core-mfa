@@ -1,9 +1,9 @@
 import {useState, Dispatch, SetStateAction} from "react";
-import { Bus, DoorOpen } from "@mfa/dds-web";
+import { Bus, DoorOpen } from "@mfa/dds";
 import * as S from "./style";
 import ApplyLeave from "./ApplyLeave";
 import ApplyPass from "./ApplyPass";
-import { PageIndicator } from "@mfa/dds-web";
+import { PageIndicator } from "@mfa/dds";
 
 export interface Props {
   setSection: Dispatch<SetStateAction<string>>;

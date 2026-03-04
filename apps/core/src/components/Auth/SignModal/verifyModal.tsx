@@ -1,4 +1,4 @@
-import { DodamFilledButton, DodamFilledTextField, DodamModal } from "@mfa/dds-web";
+import { DodamFilledButton, DodamFilledTextField, DodamModal } from "@mfa/dds";
 import { ModalBox, ButtonBox } from "./style";
 import { Dispatch, SetStateAction } from "react";
 

@@ -3,7 +3,7 @@ import { AppliedLeave } from "types/Leave/leave.type";
 import * as S from "./style";
 import dateTransform from "utils/Transform/dateTransform";
 import React from "react";
-import { Trash } from "@mfa/dds-web";
+import { Trash } from "@mfa/dds";
 
 interface Props {
   notApproveItemData: AppliedPass | AppliedLeave;

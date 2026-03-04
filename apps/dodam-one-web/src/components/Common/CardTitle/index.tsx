@@ -1,5 +1,5 @@
 import * as S from "./style";
-import { Schedule, ChevronRight, CookedRice, MusicalNote } from "@mfa/dds-web";
+import { Schedule, ChevronRight, CookedRice, MusicalNote } from "@mfa/dds";
 import { ReactNode } from "react";
 
 type Icon = "Schedule" | "WakeupSong" | "Meal"

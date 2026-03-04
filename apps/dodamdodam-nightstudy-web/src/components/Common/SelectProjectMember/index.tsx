@@ -1,4 +1,4 @@
-import { DodamFilledTextField } from "@mfa/dds-web";
+import { DodamFilledTextField } from "@mfa/dds";
 import * as S from "./style";
 import { useState } from "react";
 import { ApplyProjectNightStudyParam } from "repositories/NightStudy/nightstudy.param";

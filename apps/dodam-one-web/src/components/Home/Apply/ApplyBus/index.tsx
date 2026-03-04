@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import ApplyBusForm from "./ApplyBusForm";
 import ApplyBusListFallbackLoader from "components/Common/Skeleton/ApplyBusList";
 import * as S from "./style";
-import { DodamErrorBoundary } from "@mfa/dds-web";
+import { DodamErrorBoundary } from "@mfa/dds";
 import { Props } from "..";
 
 const ApplyBus = ({setSection}:Props) => {

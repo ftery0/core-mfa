@@ -1,4 +1,4 @@
-import {Close, DodamCheckBox, DodamDatePicker, DodamFilledButton, DodamModal} from "@mfa/dds-web";
+import {Close, DodamCheckBox, DodamDatePicker, DodamFilledButton, DodamModal} from "@mfa/dds";
 import dayjs from "dayjs";
 import * as S from './style';
 import { NIGHTSTUDY_BAN_REASONS } from "constants/NightStudy/nightStudy.constant";

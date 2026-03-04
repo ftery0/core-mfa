@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { DodamShape, DodamTypography } from "@mfa/dds-web";
+import { DodamShape, DodamTypography } from "@mfa/dds";
 
 export const NightStudyBanContainer = styled.div`
   width: 30%;

@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import ApplyPeriod from "../ApplyPeriod";
 import { useApplyNightStudy } from "hooks/NightStudy/useApplyNightStudy";
 import * as S from "./style";
-import { DodamDivider, DodamErrorBoundary, DodamFilledButton, PageIndicator } from "@mfa/dds-web";
+import { DodamDivider, DodamErrorBoundary, DodamFilledButton, PageIndicator } from "@mfa/dds";
 import StudyInfo from "../StudyInfo";
 import NightStudyStudentFallback from "../Fallback/NightStudyStudentFallback";
 import SelectProjectMember from "../SelectProjectMember";

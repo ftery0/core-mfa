@@ -1,4 +1,4 @@
-import { DodamErrorBoundary , DodamDatePicker , DodamFilledButton } from "@mfa/dds-web";
+import { DodamErrorBoundary , DodamDatePicker , DodamFilledButton } from "@mfa/dds";
 import * as S from "./style";
 import { ButtonContainer, DatePickerBox, TextAreaWrap } from "../style";
 import useApplyPass from "hooks/Pass/useApplyPass";

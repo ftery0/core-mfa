@@ -1,4 +1,4 @@
-import { Magnifyingglass } from "@mfa/dds-web";
+import { Magnifyingglass } from "@mfa/dds";
 import * as S from  "./style";
 import { searchTagObject } from "hooks/NightStudy/useSearchBar";
 import { Select } from "components/Common/Select";

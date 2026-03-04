@@ -1,4 +1,4 @@
-import { DodamShape, DodamTypography } from "@mfa/dds-web"
+import { DodamShape, DodamTypography } from "@mfa/dds"
 import styled from "styled-components"
 
 export const SelectProjectMember = styled.div`

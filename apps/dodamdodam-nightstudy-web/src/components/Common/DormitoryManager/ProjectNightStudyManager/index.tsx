@@ -1,7 +1,7 @@
 import useSearchBar from "hooks/NightStudy/useSearchBar";
 import SearchBar from "../SearchBar"
 import DataTable, { tableContentsData } from "../DataTable";
-import { DodamFilledButton, DodamModal } from "@mfa/dds-web";
+import { DodamFilledButton, DodamModal } from "@mfa/dds";
 import useManageNightStudy from "hooks/NightStudy/ManageNightStudy/useManageNightStudy";
 import { useGetAllowedProjectQuery, useGetPendingProjectQuery } from "queries/ManageNightStudy/manageProjectNightStudy.query";
 import { useMemo } from "react";

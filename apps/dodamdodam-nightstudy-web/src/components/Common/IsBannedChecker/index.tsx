@@ -1,4 +1,4 @@
-import { DodamShape, DodamTypography } from "@mfa/dds-web";
+import { DodamShape, DodamTypography } from "@mfa/dds";
 import { useGetIsImBannedQuery } from "queries/NightStudy/nightstudy.query"
 import styled from "styled-components";
 

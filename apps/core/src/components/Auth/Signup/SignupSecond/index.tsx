@@ -3,7 +3,7 @@ import { SignupAgree } from "types/Signup/signup.type";
 import { SIGNUP_AGREE } from "constants/Auth/signup.constant";
 import { Signup } from "types/Signup/signup.type";
 import * as S from "./style";
-import { DodamTextField, DodamFilledButton, Checkmark } from "@mfa/dds-web";
+import { DodamTextField, DodamFilledButton, Checkmark } from "@mfa/dds";
 
 interface Props {
   checkAllRequired: () => void;

@@ -1,5 +1,5 @@
 import { Outlet, useLocation } from 'react-router-dom';
-import { DodamNavBar, ETheme, type Eigenvalues } from '@mfa/dds-web';
+import { DodamNavBar, ETheme, type Eigenvalues } from '@mfa/dds';
 import { useTheme } from 'hooks/Theme/usetheme';
 import useLogout from 'hooks/Auth/useLogout';
 

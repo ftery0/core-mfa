@@ -1,5 +1,5 @@
 import * as S from "./style";
-import { DodamSegmentedButton } from "@mfa/dds-web";
+import { DodamSegmentedButton } from "@mfa/dds";
 import PersonalNightStudy from "components/Common/PersonalNightStudy";
 import ProjcetNightStudy from "components/Common/ProjectNightStudy";
 import { useChangePage } from "hooks/NightStudy/useChangePage";

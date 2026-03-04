@@ -1,5 +1,5 @@
 import React, { Dispatch, SetStateAction } from "react";
-import { DodamFilledButton, DodamTextField } from "@mfa/dds-web";
+import { DodamFilledButton, DodamTextField } from "@mfa/dds";
 import * as S from "../style";
 import { Signup } from "types/Signup/signup.type";
 import { SignUpModal } from "types/Signup/signup.type";

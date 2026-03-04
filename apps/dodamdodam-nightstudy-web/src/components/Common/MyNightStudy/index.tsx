@@ -1,4 +1,4 @@
-import { DodamColor, DodamDivider, DodamTag, Trash } from "@mfa/dds-web";
+import { DodamColor, DodamDivider, DodamTag, Trash } from "@mfa/dds";
 import * as S from "./style";
 import { useTheme } from "styled-components";
 import dateTransform from "utils/Transform/dateTransform";

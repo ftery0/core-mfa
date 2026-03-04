@@ -2,7 +2,7 @@ import React from "react";
 import { EMealType } from "enum/Meal/meal.enum";
 import * as S from "./style";
 import { MealData } from "types/Meal/meal.type";
-import { DodamTag } from "@mfa/dds-web";
+import { DodamTag } from "@mfa/dds";
 
 interface Props {
   mealData: MealData;

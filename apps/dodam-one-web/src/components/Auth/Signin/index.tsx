@@ -1,4 +1,4 @@
-import { DodamFilledButton, DodamTextField } from "@mfa/dds-web";
+import { DodamFilledButton, DodamTextField } from "@mfa/dds";
 import * as S from "./style";
 import NullAccountModal from "../NullAccountModal/nullAccountModal";
 import {useSignIn} from "hooks/Auth/useSignIn";

@@ -2,7 +2,7 @@ import useSearchBar from "hooks/NightStudy/useSearchBar";
 import SearchBar from "../SearchBar";
 import DataTable, { tableContentsData } from "../DataTable";
 import dateTransform from "utils/Transform/dateTransform";
-import { DodamCheckBox, DodamFilledButton, DodamModal } from "@mfa/dds-web";
+import { DodamCheckBox, DodamFilledButton, DodamModal } from "@mfa/dds";
 import { ReactElement, useState, useMemo } from "react";
 import {
   useGetAllowedNightStudyQuery,

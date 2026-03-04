@@ -1,6 +1,6 @@
 import { useMealStore } from "store/Meal/mealStore";
 import * as S from "./style";
-import { DodamErrorBoundary,DodamDatePicker, CookedRice } from "@mfa/dds-web";
+import { DodamErrorBoundary,DodamDatePicker, CookedRice } from "@mfa/dds";
 import useHandleMealDate from "hooks/Meal/useHandleMealDate";
 import { Suspense } from "react";
 import MealList from "./MealList";

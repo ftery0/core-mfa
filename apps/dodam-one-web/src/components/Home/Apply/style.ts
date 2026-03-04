@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { DodamColor, DodamShape, DodamTypography } from "@mfa/dds-web";
+import { DodamColor, DodamShape, DodamTypography } from "@mfa/dds";
 
 
 

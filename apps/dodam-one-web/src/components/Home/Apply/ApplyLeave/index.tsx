@@ -1,6 +1,6 @@
 import * as S from "./style";
 import { ButtonContainer, TextAreaWrap } from "../style";
-import { DodamDatePicker,DodamErrorBoundary,DodamFilledButton } from "@mfa/dds-web";
+import { DodamDatePicker,DodamErrorBoundary,DodamFilledButton } from "@mfa/dds";
 import useApplyLeave from "hooks/Leave/useApplyLeave";
 import ApplyNotApproveList from "../ApplyNotApproveList";
 import { Props } from "..";

@@ -1,4 +1,4 @@
-import { Dialog, DodamModal } from "@mfa/dds-web";
+import { Dialog, DodamModal } from "@mfa/dds";
 import {AlertText} from "./style"
 
 interface ModalProps {

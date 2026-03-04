@@ -2,7 +2,7 @@ import * as S from "./style";
 import { Suspense } from "react";
 import WakeupSongListFallback from "components/Common/Skeleton/WakeupSongList";
 import MyInfoWakeupSongList from "./MyWakeupSongList";
-import { DodamErrorBoundary } from "@mfa/dds-web";
+import { DodamErrorBoundary } from "@mfa/dds";
 
 const MyWakeupSong = () => {
     return(

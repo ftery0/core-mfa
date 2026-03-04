@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { DodamColor } from "@mfa/dds-web";
+import { DodamColor } from "@mfa/dds";
 
 export const ApplyNotApproveListFoldButton = styled.button`
   width: 28px;

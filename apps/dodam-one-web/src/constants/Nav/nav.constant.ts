@@ -1,4 +1,4 @@
-import { Home, Calender, Note, MoonPlus, Dev, Magnifyingglass, Chart} from "@mfa/dds-web";
+import { Home, Calender, Note, MoonPlus, Dev, Magnifyingglass, Chart} from "@mfa/dds";
 
 import { type Interpolation } from "styled-components";
 

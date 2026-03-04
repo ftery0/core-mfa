@@ -2,7 +2,7 @@ import * as S from "./style";
 import Profile from "./Profile";
 import { Suspense } from "react";
 import MyInfoFallbackLoader from "components/Common/Skeleton/MyInfo";
-import { DodamDivider, DodamFilledButton,ChevronRight, DodamErrorBoundary } from "@mfa/dds-web";
+import { DodamDivider, DodamFilledButton,ChevronRight, DodamErrorBoundary } from "@mfa/dds";
 import MyWakeupSong from "./MyWakeupSong";
 
 const MyInfo = () =>{

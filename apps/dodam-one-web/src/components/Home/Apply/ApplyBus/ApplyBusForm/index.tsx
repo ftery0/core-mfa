@@ -1,4 +1,4 @@
-// import { DodamFilledButton } from "@mfa/dds-web";
+// import { DodamFilledButton } from "@mfa/dds";
 import useApplyBus from "hooks/Bus/useApplyBus";
 import dataCheck from "utils/Check/dataCheck";
 import ApplyBusItem from "../ApplyBusItem";

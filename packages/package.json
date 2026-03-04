@@ -1,5 +1,5 @@
 {
-  "name": "@mfa/dds-web",
+  "name": "@mfa/dds",
   "private": true,
   "type": "module",
   "types": "dist/types/index.d.ts",

@@ -1,4 +1,4 @@
-import { DodamShape } from "@mfa/dds-web";
+import { DodamShape } from "@mfa/dds";
 import styled from "styled-components";
 
 export const ScheduleContainer = styled.div`

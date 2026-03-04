@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { DodamShadow, DodamShape, DodamTypography } from "@mfa/dds-web";
+import { DodamShadow, DodamShape, DodamTypography } from "@mfa/dds";
 
 export const ApplyPassContainer = styled.div`
   width: 100%;

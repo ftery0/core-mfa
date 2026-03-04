@@ -1,5 +1,5 @@
 import * as S from './style'
-import { DodamDatePicker, DodamDivider } from '@mfa/dds-web'
+import { DodamDatePicker, DodamDivider } from '@mfa/dds'
 import {
   ApplyNightStudyParam,
   ApplyProjectNightStudyParam,

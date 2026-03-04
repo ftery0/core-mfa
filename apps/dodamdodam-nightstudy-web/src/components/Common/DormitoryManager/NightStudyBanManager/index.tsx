@@ -4,7 +4,7 @@ import styled from "styled-components";
 import DataTable, { tableContentsData } from "../DataTable";
 import { useMemo } from "react";
 import { useGetBanMemberQuery } from "queries/ManageNightStudy/manageNightstudy.query";
-import { DodamFilledButton } from "@mfa/dds-web";
+import { DodamFilledButton } from "@mfa/dds";
 import useBanStudent from "hooks/NightStudy/ManageNightStudy/useBanStudent";
 import useNightStudyModal from "hooks/NightStudy/ManageNightStudy/useNightStudyModal";
 import NightStudyBanModal from "../Modal/NightStudyBanModal";

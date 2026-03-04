@@ -1,6 +1,6 @@
 import * as S from "./style";
 import dayjs from "dayjs";
-import { DodamModal,DodamFilledButton} from "@mfa/dds-web";
+import { DodamModal,DodamFilledButton} from "@mfa/dds";
 import { useQueryClient } from "@tanstack/react-query";
 import {
     usePostApplyPassMutation,

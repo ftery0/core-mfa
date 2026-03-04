@@ -1,4 +1,4 @@
-import { DodamDivider } from "@mfa/dds-web";
+import { DodamDivider } from "@mfa/dds";
 import * as S from "./style";
 
 interface Props {

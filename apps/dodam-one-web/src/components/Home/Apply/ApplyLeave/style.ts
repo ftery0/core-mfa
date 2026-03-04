@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { DodamTypography } from "@mfa/dds-web";
+import { DodamTypography } from "@mfa/dds";
 
 export const ApplyLeaveContainer = styled.div`
   width: 100%;

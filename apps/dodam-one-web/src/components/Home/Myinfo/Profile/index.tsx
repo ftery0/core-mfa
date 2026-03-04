@@ -1,7 +1,7 @@
 import { useGetMyMemberQuery } from "queries/Member/member.query";
 import { ProfileBox, ProfileImg, ProfileText } from "./style";
 import dataTransform from "utils/Transform/dataTransform";
-import { Avatar } from "@mfa/dds-web";
+import { Avatar } from "@mfa/dds";
 
 const Profile = () =>{
         const { data: serverMyMemberData } = useGetMyMemberQuery();

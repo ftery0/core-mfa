@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mfa/dds-web": "workspace:*",
+    "@mfa/dds": "workspace:*",
     "@tanstack/react-query": "^5.90.15",
     "axios": "^1.13.2",
     "js-cookie": "^3.0.5",

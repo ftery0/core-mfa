@@ -1,4 +1,4 @@
-import { DodamTypography } from "@mfa/dds-web";
+import { DodamTypography } from "@mfa/dds";
 import * as ExcelJS from "exceljs";
 import { RiFileExcel2Line } from "react-icons/ri";
 import styled from "styled-components";

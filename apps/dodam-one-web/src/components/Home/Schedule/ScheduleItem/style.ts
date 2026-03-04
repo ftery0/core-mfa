@@ -1,4 +1,4 @@
-import { DodamColor, DodamShape, DodamTypography } from "@mfa/dds-web";
+import { DodamColor, DodamShape, DodamTypography } from "@mfa/dds";
 import styled from "styled-components";
 
 export const ScheduleItemContainer = styled.div`

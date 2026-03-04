@@ -1,4 +1,4 @@
-import { DodamFilledButton } from '@mfa/dds-web';
+import { DodamFilledButton } from '@mfa/dds';
 import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react'
 import studentRepository from 'repositories/Student/student.repository';

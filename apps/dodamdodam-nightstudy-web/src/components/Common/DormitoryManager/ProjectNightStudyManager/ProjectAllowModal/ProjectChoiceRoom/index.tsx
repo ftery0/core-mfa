@@ -1,5 +1,5 @@
 import * as S from "./style";
-import { DodamCheckBox } from "@mfa/dds-web";
+import { DodamCheckBox } from "@mfa/dds";
 import { PLACE_ITEMS } from "constants/NightStudy/nightStudy.constant";
 import { useAvailableProjectLabs } from "hooks/NightStudy/useAvailableProjectLabs";
 

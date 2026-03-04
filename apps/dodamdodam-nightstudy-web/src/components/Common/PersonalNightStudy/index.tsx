@@ -3,7 +3,7 @@ import ApplyPeriod from "../ApplyPeriod";
 import PhoneRequire from "../PhoneRequire";
 import * as S from "./style";
 import StudyInfo from "../StudyInfo";
-import { DodamDivider, DodamFilledButton } from "@mfa/dds-web";
+import { DodamDivider, DodamFilledButton } from "@mfa/dds";
 import { ApplyNightStudyParam } from "repositories/NightStudy/nightstudy.param";
 import PeriodSlider from "../PeriodSlider";
 

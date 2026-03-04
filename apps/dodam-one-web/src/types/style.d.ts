@@ -1,4 +1,4 @@
-import { DodamTheme } from "@mfa/dds-web";
+import { DodamTheme } from "@mfa/dds";
 
 declare module "styled-components" {
   export interface DefaultTheme extends DodamTheme {}

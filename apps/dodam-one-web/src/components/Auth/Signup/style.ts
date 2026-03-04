@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { DodamTypography } from "@mfa/dds-web";
+import { DodamTypography } from "@mfa/dds";
 
 export const SignUpBox = styled.div<{section:string}>`
     display: flex;

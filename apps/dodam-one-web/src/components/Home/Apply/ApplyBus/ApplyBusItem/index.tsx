@@ -1,4 +1,4 @@
-import { Checkmark } from "@mfa/dds-web";
+import { Checkmark } from "@mfa/dds";
 import { Bus } from "types/Bus/bus.type";
 import * as S from "./style";
 

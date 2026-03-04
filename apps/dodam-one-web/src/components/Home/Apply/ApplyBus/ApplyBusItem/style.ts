@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { DodamTypography, DodamShape } from "@mfa/dds-web";
+import { DodamTypography, DodamShape } from "@mfa/dds";
 
 export const ApplyBusItemContainer = styled.div`
   width: 100%;

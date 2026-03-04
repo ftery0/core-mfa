@@ -1,4 +1,4 @@
-import { DodamTypography } from "@mfa/dds-web";
+import { DodamTypography } from "@mfa/dds";
 import styled from "styled-components";
 
 export const ApplyNotApproveListItemContainer = styled.div`
