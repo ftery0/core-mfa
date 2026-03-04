@@ -1,0 +1,27 @@
+import { useGetMyMemberQuery } from "queries/Member/member.query";
+import { ProfileBox, ProfileImg, ProfileText } from "./style";
+import dataTransform from "utils/Transform/dataTransform";
+import { Avatar } from "@mfa/dds-web";
+
+const Profile = () =>{
+        const { data: serverMyMemberData } = useGetMyMemberQuery();
+    
+    return(
+        <ProfileBox>
+          { serverMyMemberData?.data.profileImage ? 
+           <ProfileImg src={serverMyMemberData?.data.profileImage!}/>
+          : <Avatar size="extraLarge"/>
+          }
+           <ProfileText>
+            <span>{serverMyMemberData?.data.name}</span>
+            <span> {dataTransform.schoolInfoTransform(
+            serverMyMemberData?.data?.student?.grade || 0,
+            serverMyMemberData?.data?.student?.room || 0,
+            serverMyMemberData?.data?.student?.number || 0
+          )}</span>
+            </ProfileText>
+        </ProfileBox>
+    )
+}
+
+export default Profile;
