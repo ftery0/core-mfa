@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const LayoutContainer = styled.div`
-    height: 100vh;
+    height: 100%;
     display: flex;
     user-select: none;
     margin: 0;
