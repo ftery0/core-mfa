@@ -21,7 +21,7 @@ export interface DatePickerProps {
   customStyle?: CSSObject;
   onChange: (e: Date) => void;
   value: string;
-  children?: JSX.Element | string;
+  children?: React.ReactElement | string;
   title: string;
   typography?: typographyType;
   type?: DatePickerMode;

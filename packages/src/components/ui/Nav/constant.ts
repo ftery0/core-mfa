@@ -1,3 +1,4 @@
+import React from "react";
 import { Home, Calender,Note, MoonPlus, Dev, Chart, People, Megaphone } from "@/assets";
 
 import { type Interpolation } from "styled-components";
@@ -26,7 +27,7 @@ export type Eigenvalues =
 type NavLink = {
   name: string;
   link: string;
-  img: ((props: IconProps) => JSX.Element) | null;
+  img: ((props: IconProps) => React.ReactElement) | null;
   values: Eigenvalues;
 };
 

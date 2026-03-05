@@ -1,4 +1,4 @@
-import { ExecutionProps, createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components";
 import { css } from "styled-components";
 import { DodamFont } from "@/foundations";
 
@@ -13,7 +13,7 @@ const generateFontFace = () => {
   );
 };
 
-export const DodamGlobalFonts: React.NamedExoticComponent<ExecutionProps> = createGlobalStyle`
+export const DodamGlobalFonts = createGlobalStyle`
     ${generateFontFace()}
     
     * {
