@@ -4,6 +4,9 @@ module.exports = {
   eslint: {
     enable: false,
   },
+  devServer: {
+    port: 3002,
+  },
   webpack: {
     configure: (config) => {
       config.output.publicPath = 'auto';
