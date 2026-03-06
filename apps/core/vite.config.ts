@@ -19,6 +19,10 @@ export default defineConfig({
           name: 'nightstudy',
           entry: 'http://localhost:3002/remoteEntry.js',
         },
+        wakeupsong: {
+          name: 'wakeupsong',
+          entry: 'http://localhost:3003/remoteEntry.js',
+        },
       },
       shared: {
         react: { singleton: true, requiredVersion: false, eager: false },
