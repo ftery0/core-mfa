@@ -1,19 +1,26 @@
-import {useState} from 'react';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export const useNavBar = () => {
-    const handleMenuItemClick = (path: string) => {
-        window.location.href = path;
-    };
-    
-    const [modalOpen, setModalOpen] = useState(false);
+  const navigate = useNavigate();
 
-    const hahdleOpenNavBar = () =>{
-        setModalOpen((prev) => !prev);
+  const handleMenuItemClick = (path: string) => {
+    if (path.startsWith('http')) {
+      window.open(path, '_blank');
+    } else {
+      navigate(path);
     }
+  };
 
-    return{
-        modalOpen,
-        hahdleOpenNavBar,
-        handleMenuItemClick,
-    }
-}
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const hahdleOpenNavBar = () => {
+    setModalOpen((prev) => !prev);
+  };
+
+  return {
+    modalOpen,
+    hahdleOpenNavBar,
+    handleMenuItemClick,
+  };
+};
