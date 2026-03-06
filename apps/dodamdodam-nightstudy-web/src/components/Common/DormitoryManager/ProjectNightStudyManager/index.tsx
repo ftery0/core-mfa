@@ -130,13 +130,13 @@ const ProjectNightStudyManager = () => {
         dataLength={projectData.length}
         onColumnClick={openDataModal}
       />
-      <DodamModal isOpen={allowModalInfo.isOpen} background={true}>
+      <DodamModal isOpen={allowModalInfo.isOpen} $background={true}>
         <ProjectAllowModal
           close={closeAllowModal}
           project={projectData.find(item => item.id === allowModalInfo.dataId)!}
         />
       </DodamModal>
-      <DodamModal isOpen={dataModalInfo.isOpen} background={true}>
+      <DodamModal isOpen={dataModalInfo.isOpen} $background={true}>
         <DataViewModal
           isOpen={dataModalInfo.isOpen}
           data={projectData.find(item => item.id === dataModalInfo.dataId)!}

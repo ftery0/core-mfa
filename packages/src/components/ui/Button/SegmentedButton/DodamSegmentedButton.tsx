@@ -100,7 +100,7 @@ export const DodamSegmentedButton = ({
         {(setData ? data : segmentedBtndata).map((item, idx) => (
           <StyledSegmentedButton
             key={idx}
-            ref={(e: HTMLButtonElement | null) => (buttonRefs.current[idx] = e)}
+            ref={(e: HTMLButtonElement | null) => { buttonRefs.current[idx] = e; }}
             num={num}
             type={type}
             isAtv={item.isAtv}

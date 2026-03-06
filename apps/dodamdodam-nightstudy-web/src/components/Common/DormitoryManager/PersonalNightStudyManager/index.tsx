@@ -249,7 +249,7 @@ const PersonalNightStudyManager = () => {
         tableContents={tableContents}
         onColumnClick={openDataModalId}
       />
-      <DodamModal isOpen={dataModalInfo.isOpen} background={true}>
+      <DodamModal isOpen={dataModalInfo.isOpen} $background={true}>
         <DataViewModal
           isOpen={dataModalInfo.isOpen}
           data={

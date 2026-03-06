@@ -13,7 +13,7 @@ interface NightStudyBanModalProps {
 const NightStudyBanModal = ({isOpen, close, dataId}: NightStudyBanModalProps) => {
   const {state, setEnded, setReason, setReasonType, createBan} = useBanStudent();
   return (
-    <DodamModal isOpen={isOpen} background>
+    <DodamModal isOpen={isOpen} $background>
       <S.NightStudyBanContainer>
         <div onClick={close}>
           <Close $svgStyle={{ cursor: 'pointer' }} color='labelNormal'/>

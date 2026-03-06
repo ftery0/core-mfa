@@ -34,7 +34,7 @@ const RejectModal = ({type, close, dataId, isOpen}: RejectModalProps) => {
   };
 
   return (
-    <DodamModal isOpen={isOpen} background={true}>
+    <DodamModal isOpen={isOpen} $background={true}>
       <S.RejectModalContainer>
         <S.RejectModalData>
           <p>거절 사유를 입력해주세요</p>
