@@ -1,11 +1,7 @@
 import React, { FormEvent, useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Login, LoginResponse } from "types/Login/login.type";
-import token from "libs/Token/token";
-import {
-  ACCESS_TOKEN_KEY,
-  REFRESH_TOKEN_KEY,
-} from "constants/Token/token.constant";
+import { token, ACCESS_TOKEN_KEY, REFRESH_TOKEN_KEY } from "@mfa/dds";
 import { toast } from "react-toastify";
 import { useQueryClient } from "@tanstack/react-query";
 import { QUERY_KEYS } from "queries/queryKey";

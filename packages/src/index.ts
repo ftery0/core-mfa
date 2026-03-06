@@ -4,6 +4,7 @@ export * from "./hooks";
 export * from "./styles";
 export * from "./utils";
 export * from "./assets/icons";
+export * from "./libs";
 
 // Icons are excluded from main bundle to reduce package size
 // Import icons separately: import { Bell, School } from 'dds-web-test/icons'

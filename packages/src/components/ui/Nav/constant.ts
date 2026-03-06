@@ -32,13 +32,13 @@ type NavLink = {
 };
 
 export const NAV_LINKS: readonly NavLink[] = [
-  { name: "홈", link: "http://dodam.b1nd.com/", img: Home, values: "home" },
-  { name: "공지", link: "http://dodam.b1nd.com/notice", img: Megaphone, values: "notice" },
-  { name: "일정", link: "http://dodam.b1nd.com/schedule", img: Calender, values: "schedule" },
-  { name: "기상송", link: "http://dodam.b1nd.com/wakesong", img: Note, values: "wakesong" },
-  { name: "심자신청", link: "http://dodam.b1nd.com/nightstudy", img: MoonPlus, values: "nightstudy" },
+  { name: "홈", link: "/", img: Home, values: "home" },
+  { name: "공지", link: "/notice", img: Megaphone, values: "notice" },
+  { name: "일정", link: "/schedule", img: Calender, values: "schedule" },
+  { name: "기상송", link: "/wakesong", img: Note, values: "wakesong" },
+  { name: "심자신청", link: "/nightstudy", img: MoonPlus, values: "nightstudy" },
   { name: "WIKI", link: "https://sh031224.github.io/ask-for-information/", img: Dev, values: "ask" },
-  { name: "동아리", link: "http://dodam.b1nd.com/club", img: People, values: "club" },
+  { name: "동아리", link: "/club", img: People, values: "club" },
   { name: "DGIT", link: "http://dgit.b1nd.com", img: Chart, values: "dgit" },
 ];
 

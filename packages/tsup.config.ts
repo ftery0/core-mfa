@@ -17,7 +17,7 @@ export default defineConfig({
   minify: true,
   treeshake: true,
   outDir: "dist",
-  external: ["react", "react-dom", "styled-components", "@tanstack/react-query"],
+  external: ["react", "react-dom", "styled-components", "@tanstack/react-query", "react-router-dom", "axios", "js-cookie"],
   esbuildOptions(options) {
     options.alias = {
       "@": path.resolve(__dirname, "src"),
