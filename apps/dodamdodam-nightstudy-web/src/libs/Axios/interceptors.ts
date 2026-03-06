@@ -1,6 +1,5 @@
 import { AxiosError } from "axios";
-import cookie from "../Cookie/cookie";
-import { ACCESS_TOKEN_KEY, REFRESH_TOKEN_KEY } from "constants/Token/token.constant";
+import { cookie, ACCESS_TOKEN_KEY, REFRESH_TOKEN_KEY } from "@mfa/dds";
 import { injectCustomAxiosAccessToken } from "./dodamAxios";
 import authRepository from "repositories/Auth/auth.repository";
 

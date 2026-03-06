@@ -3,8 +3,8 @@ import {
   ACCESS_TOKEN_KEY,
   REFRESH_TOKEN_KEY,
   REQUEST_TOKEN_KEY,
-} from "constants/Token/token.constant";
-import token from "../Token/token";
+  token,
+} from "@mfa/dds";
 import { dodamAxios } from "./customAxios";
 import authRepository from "repositories/Auth/auth.repository";
 
