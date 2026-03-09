@@ -8,7 +8,7 @@ const useTokenCheck = () => {
       !cookie.getCookie(REFRESH_TOKEN_KEY)
     ) {
       window.alert("토큰이 없습니다");
-      window.location.href = "http://dodam.b1nd.com/sign";
+      window.location.href = "https://dodam.b1nd.com/sign";
     }
   }, []);
 

@@ -51,10 +51,8 @@ const useDecisionWakeupSong = () => {
       onSuccess: () => {
         B1ndToast.showSuccess("기상송을 승인했습니다!");
         handleSuccessfulWakeupSongEvent();
-        queryClient.invalidateQueries([
-          QUERY_KEYS.wakeupSong.getTodayMusicData,
-          QUERY_KEYS.wakeupSong.getTomorrowMusicData,
-        ]);
+        queryClient.invalidateQueries(QUERY_KEYS.wakeupSong.getTodayMusicData);
+        queryClient.invalidateQueries(QUERY_KEYS.wakeupSong.getTomorrowMusicData);
         setIsEnabled(true);
       },
       onError: () => {

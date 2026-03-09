@@ -8,7 +8,7 @@ class AuthRepository {
     refreshToken: postRefreshTokenParam
   ): Promise<RefreshResponse> {
     const { data } = await axios.post<RefreshResponse>(
-      `${config.TEST_SERVER}/auth/reissue`,
+      `${config.SERVER}/auth/reissue`,
       refreshToken
     );
     return data;

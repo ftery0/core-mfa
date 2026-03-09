@@ -1,4 +1,4 @@
-import axios, { AxiosError } from "axios";
+import { AxiosError } from "axios";
 import {
   cookie,
   ACCESS_TOKEN_KEY,
@@ -30,7 +30,7 @@ export const errorInterceptor = async (config: AxiosError) => {
         originalRequest.headers![
           REQUEST_TOKEN_KEY
         ] = `Bearer ${newAccessToken.accessToken}`;
-        return axios(originalRequest);
+        return dodamAxios(originalRequest);
       } catch (error) {
         window.location.href = "http://dodam.b1nd.com/sign";
       }

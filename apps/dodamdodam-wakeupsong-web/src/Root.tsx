@@ -4,8 +4,9 @@ import { B1ndToastContainer } from "@b1nd/b1nd-toastify";
 import { QueryClient, QueryClientProvider } from "react-query";
 import ThemeProviderContainer from "components/Common/ThemeProviderContainer";
 
+const queryClient = new QueryClient();
+
 const Root = () => {
-  const queryClient = new QueryClient();
 
   return (
     <QueryClientProvider client={queryClient}>
