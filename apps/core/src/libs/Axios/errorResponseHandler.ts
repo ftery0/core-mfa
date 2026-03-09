@@ -35,6 +35,13 @@ const errorResponseHandler = async (error: AxiosError) => {
       usingRefreshToken !== undefined &&
       status === 401
     ) {
+      const retryOriginalRequest = new Promise((resolve) => {
+        addRefreshSubscriber((accessToken: string) => {
+          originalRequest!.headers![REQUEST_TOKEN_KEY] = `Bearer ${accessToken}`;
+          resolve(dodamAxios(originalRequest!));
+        });
+      });
+
       if (!isRefreshing) {
         isRefreshing = true;
 
@@ -46,25 +53,22 @@ const errorResponseHandler = async (error: AxiosError) => {
 
           dodamAxios.defaults.headers.common[
             REQUEST_TOKEN_KEY
-          ] = `Bearer ${newAccessToken}`;
+          ] = `Bearer ${newAccessToken.accessToken}`;
 
           token.setToken(ACCESS_TOKEN_KEY, newAccessToken.accessToken);
 
           isRefreshing = false;
 
           onTokenRefreshed(newAccessToken.accessToken);
+          refreshSubscribers = [];
         } catch (error) {
           window.alert("세션이 만료되었습니다.");
           token.clearToken();
           window.location.href = "/sign";
         }
       }
-      return new Promise((resolve) => {
-        addRefreshSubscriber((accessToken: string) => {
-          originalRequest!.headers![REQUEST_TOKEN_KEY] = `Bearer ${accessToken}`;
-          resolve(dodamAxios(originalRequest!));
-        });
-      });
+
+      return retryOriginalRequest;
     }
   }
 };
