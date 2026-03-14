@@ -19,6 +19,10 @@ const ContentWrapper = styled.div`
 
 const getNavLocation = (pathname: string): Eigenvalues => {
   if (pathname.startsWith('/nightstudy')) return 'nightstudy';
+  if (pathname.startsWith('/wakesong')) return 'wakesong';
+  if (pathname.startsWith('/notice')) return 'notice';
+  if (pathname.startsWith('/schedule')) return 'schedule';
+  if (pathname.startsWith('/club')) return 'club';
   return 'home';
 };
 
