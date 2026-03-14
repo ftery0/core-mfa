@@ -13,7 +13,7 @@ import { useRecoilValue } from "recoil";
 import { VisitCount } from "store/ToolTip/toolTip.store";
 import { TOOL_TIP_KEY } from "constants/ToolTip/toolTip.constants";
 import { useEffect } from "react";
-import token from "libs/Token/token";
+import { token } from "@mfa/dds";
 
 interface Props {
   title: string;

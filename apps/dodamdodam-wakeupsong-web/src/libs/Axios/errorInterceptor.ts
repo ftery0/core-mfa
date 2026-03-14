@@ -15,6 +15,7 @@ export const errorInterceptor = async (config: AxiosError) => {
   if (config.response) {
     if (STATUS === 401) {
       const originalRequest = config.config;
+      if (!originalRequest) return Promise.reject(config);
 
       try {
         const { data: newAccessToken } = await authRepository.postRefreshToken({
@@ -27,9 +28,7 @@ export const errorInterceptor = async (config: AxiosError) => {
 
         cookie.setCookie(ACCESS_TOKEN_KEY, newAccessToken.accessToken);
 
-        originalRequest.headers![
-          REQUEST_TOKEN_KEY
-        ] = `Bearer ${newAccessToken.accessToken}`;
+        originalRequest.headers[REQUEST_TOKEN_KEY] = `Bearer ${newAccessToken.accessToken}`;
         return dodamAxios(originalRequest);
       } catch (error) {
         window.location.href = "http://dodam.b1nd.com/sign";
